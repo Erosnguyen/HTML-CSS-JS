@@ -1,0 +1,35 @@
+{
+  "name": "sanpham2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "watch": "sass --watch scss/style.scss:public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erosnguyen/HTML-CSS-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erosnguyen/HTML-CSS-JS/issues"
+  },
+  "homepage": "https://github.com/Erosnguyen/HTML-CSS-JS#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sass": "^1.43.5",
+    "sequelize": "^6.11.0",
+    "sequelize-cli": "^6.3.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
